@@ -1,0 +1,6 @@
+﻿namespace GDNetworking.jsonprotocol;
+
+public enum RequestType
+{
+    LOGIN, LOGOUT, GET_DONATIONS, GET_DONATORI, NEW_DONATOR, FIND_DONATOR, NEW_DONATION, FIND_CAUZA, ADD_DONATOR
+}
